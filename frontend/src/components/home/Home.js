@@ -9,7 +9,7 @@ import { getProduct } from '../../services/products'
 // Y en react es diferente la manipulacion del dom
 
 // Para react la manipulacion del dom se hace con una Referencia, usaremos el hook useRef para que en esa referencia
-// se almacene el elemento del don que definimos en la linea [TODO:] (las referencias son un objeto 
+// se almacene el elemento del DOM que definimos en la linea 45 (las referencias son un objeto 
 // mutable que tienen una propiedad current donde se almacena el valor actual), para que cuando el id de la preferencia llegue,
 // Generamos mediante manipulacion del dom el script necesario con los atributos que pide MP y le hacemos append a 
 // ese elemento del dom el script como hijo
